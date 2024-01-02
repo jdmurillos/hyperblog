@@ -1,20 +1,32 @@
 body
 {
+    background:#1e1f24 ;
     color:#333;
     text-align: center;
-    font-family: "Roboto";
+    font-family: "arial";
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
 #cabecera
 {
-    background: #33A;
+    background: #37488b;
     color:white;
     margin: 0;
     padding: 0.5em;
     font-weight: bold;
-    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    display: flex;
+    
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
 
 #cabecera #tagline
@@ -23,6 +35,20 @@ body
     padding: 1em 0 0 0;
     font-weight: normal;
     font-size: 0.8em;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    
+}
+
+#cabecera #hyper
+{
+    margin: 0 0 0 1em;
+    padding: 1em 0 0 0;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #container
@@ -37,4 +63,17 @@ body
 #container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+    padding: 1em;
+    background: #DDD;
+}
+
+#icon
+{
+    object-fit: cover;
+    width:10%;
+    height: 10%;
 }
